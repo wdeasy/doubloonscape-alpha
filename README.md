@@ -10,13 +10,13 @@ While you are the Captain, you gain xp and gold.
 Ruby
 -------------
 This bot requires atleast Ruby 2.3.0 and the following gems:
->discordrb
-> activesupport
-> date
-> time
-> csv
-> thread
-> json
+> discordrb  
+> activesupport  
+> date  
+> time  
+> csv  
+> thread  
+> json  
 
 Commands
 -------------
@@ -34,25 +34,25 @@ Roles
 You will need to make a Bot Role, and a Captain Role. 
 
 The Bot Role needs:
-> Manage Roles
-> Manage Channels
-> Change Nickname
-> Manage Nicknames
-> Read Messages
-> Send Messages
+> Manage Roles  
+> Manage Channels  
+> Change Nickname  
+> Manage Nicknames  
+> Read Messages  
+> Send Messages  
 
 The Captain role needs:
-> Display role members separately from online members
-> Allow anyone to @mention this role
-> **ALL OTHER PERMISSIONS UNCHECKED**
+> Display role members separately from online members  
+> Allow anyone to @mention this role  
+> **ALL OTHER PERMISSIONS UNCHECKED**  
 
 Assign the Bot Role to your bot user. The roles can be named whatever you want, although the Captain Role needs to have captain in the name in order for !setup to find it. After the Role ID is in the doubloonscape.rb file, it can be changed to whatever you like.
 
 The Role Hierarchy needs to be something like this:
-> Admins
-> Bot Role
-> Captain Role
-> @everyone 
+> Admins  
+> Bot Role  
+> Captain Role  
+> @everyone  
 
 All roles above the Captain Role need to have "Display role members separately from online members" unchecked or else they will not be displayed correctly if they declare themselves the Captain.
 
